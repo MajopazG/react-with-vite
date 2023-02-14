@@ -1,12 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
+//import { useState } from 'react'
+//import reactLogo from './assets/react.svg'
 import './App.css'
+import { Home } from './components/Pages/Home/Home'
 
 function App() {  
 
   return (
     <div className="App">
-      <h1>Hola</h1>
+      <Home />
     </div>
   )
 }
