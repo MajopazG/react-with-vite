@@ -1,5 +1,6 @@
 import React from 'react'
 import { ButtonUi } from '../../Ui/ButtonUi/ButtonUi'
+import { ButtonCount } from '../../Ui/ButtonCount/ButtonCount'
 
 export const Header = () => {
   return (
@@ -9,6 +10,8 @@ export const Header = () => {
       <ButtonUi styleButton="styleButto" textButton=" UseCustom " />
       <ButtonUi styleButton="styleButto" textButton=" UseEffect " />
       <ButtonUi styleButton="styleButto" textButton=" Rick And Morty " />
+      <br />
+      <ButtonCount />
     </div>
   )
 }
